@@ -1,0 +1,15 @@
+plugins {
+    id "org.asciidoctor.convert" version "1.5.8"
+    id "org.springframework.boot"
+}
+
+bootJar {
+    enabled = true
+}
+
+dependencies {
+
+
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+}
+
